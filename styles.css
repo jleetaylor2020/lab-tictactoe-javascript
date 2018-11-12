@@ -1,0 +1,62 @@
+
+h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+div.board {
+    width: 302px;
+    margin: 0 auto;
+
+}
+
+.board {
+    width: 302px;
+    height: 302px;
+    border: 3px;
+    z-index: 1;
+    padding: 40px;
+
+}
+
+.row div {
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+
+.top-left {
+    border-bottom: 1 px black solid;
+}
+
+.top-center {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+.center {
+    border: 1px black solid;
+}
+
+.middle-left {
+    border-top: 1px black solid;
+    border-bottom:  1px black solid; 
+
+}
+
+.middle-right {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bottom-middle{
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
