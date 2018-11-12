@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#result {
+    set alert here---------
+
+}
+
+
+#board {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    background: blue;
+
+}
+
+
+.row {
+    height: 100px;
+    width: 302px;
+    clear: both;
+    margin: 0 auto;
+
+}
+
+.row div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+
+.row div:hover {
+    cursor: -webkit-grabbing;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+
+}
+
+.top {
+    border-bottom: 1px black solid;
+
+}
+
+
+.middle {
+
+}
+
+
+.bottom {
+    border-top: 1px black solid;
+
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+/* FINISH MAKING BUTTON RESET WITH FUNCTIONS/EVENTLISTENER */
+.button {
+    width: 9em;
+    height: 2em;
+    margin: 25px;
+    box-shadow: blue;
+    background-color: #084f8e;
+    text-align: center;
+    font-family: serif;
+    font-size: 1em;
+    text-decoration-color: blanchedalmond;
+    color: yellow;
+    
+    

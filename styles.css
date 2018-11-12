@@ -1,4 +1,5 @@
 
+
 h1 {
     text-align: center;
     padding: 25px;
@@ -24,6 +25,12 @@ div.board {
     width: 100px;
     float: left;
 
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: yellow;
 }
 
 .top-left {
@@ -59,4 +66,3 @@ div.board {
     border-left: 1px black solid;
     border-right: 1px black solid;
 }
-
